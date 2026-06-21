@@ -15,13 +15,7 @@ Melike Güneş — DI504 Foundations of Deep Learning
 | **Optional**   | Limited Optuna search (lr, batch size, weight decay)                                                    |
 
 
-## Setup
 
-```bash
-cd ~/Desktop/504
-conda activate di504
-jupyter notebook notebooks/di504_pet_project.ipynb
-```
 
 ## Structure
 
