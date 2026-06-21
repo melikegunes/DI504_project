@@ -20,7 +20,7 @@ Melike Güneş — DI504 Foundations of Deep Learning
 ## Structure
 
 ```
-504/
+DI504_project/
 ├── notebooks/di504_pet_project.ipynb
 ├── src/                    # data, models, train, evaluate
 ├── outputs/figures|metrics|checkpoints/
