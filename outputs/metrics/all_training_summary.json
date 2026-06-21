@@ -1,0 +1,41 @@
+{
+  "custom_cnn": {
+    "model_name": "Custom CNN",
+    "pretrained": false,
+    "epochs": 49,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "best_val_accuracy": 0.45652173913043476,
+    "test_accuracy": 0.3172526573998365,
+    "test_macro_f1": 0.30800797027153537,
+    "train_time_minutes": 20.8368688305219
+  },
+  "resnet18_scratch": {
+    "model_name": "ResNet-18 Scratch",
+    "pretrained": false,
+    "epochs": 25,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "best_val_accuracy": 0.44565217391304346,
+    "test_accuracy": 0.4363586808394658,
+    "test_macro_f1": 0.42908026855325493,
+    "train_time_minutes": 15.833100148042043
+  },
+  "resnet18_pretrained": {
+    "model_name": "ResNet-18 Pretrained",
+    "pretrained": true,
+    "epochs": 20,
+    "optimizer": "Adam (Phased)",
+    "learning_rate": "1e-3 (head) / 1e-4 (finetune)",
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "best_val_accuracy": 0.9348,
+    "test_accuracy": 0.8934314527119106,
+    "test_macro_f1": 0.8922611246890735,
+    "train_time_minutes": 0.0015676498413085937
+  }
+}

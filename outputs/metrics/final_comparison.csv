@@ -1,0 +1,4 @@
+Model,Initialization,Augmentation,Epochs,Best Validation Accuracy,Test Accuracy,Macro F1
+Custom CNN,Random,Yes,49,0.45652173913043476,0.3172526573998365,0.30800797027153537
+ResNet-18 Scratch,Random,Yes,25,0.44565217391304346,0.4363586808394658,0.42908026855325493
+ResNet-18 Pretrained,Pretrained (ImageNet),Yes,20,0.9348,0.8934314527119106,0.8922611246890735

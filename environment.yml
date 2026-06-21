@@ -1,0 +1,22 @@
+name: di504
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pillow
+  - tqdm
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - optuna
+      - pillow>=10.0

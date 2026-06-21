@@ -1,0 +1,5 @@
+{
+  "accuracy": 0.8934314527119106,
+  "macro_f1": 0.8922611246890735,
+  "model": "ResNet-18 Pretrained"
+}
